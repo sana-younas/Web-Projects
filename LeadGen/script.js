@@ -1,16 +1,3 @@
-// document.addEventListener("DOMContentLoaded", () => {
-//   const elements = document.querySelectorAll(".slideAnimation");
-
-//   setTimeout(() => {
-//     elements.forEach((element) => {
-//       element.style.transform = "translateX(0)";
-//       element.style.opacity = "1";
-//     });
-//     document.getElementById("slide-left").style.transform = "translateX(0)";
-//     document.getElementById("slide-right").style.transform = "translateX(0)";
-//   }, 500);
-// });
-
 document.addEventListener("DOMContentLoaded", function () {
   const slideLeftSections = document.querySelectorAll(".slide-left");
   const slideRightSections = document.querySelectorAll(".slide-right");
